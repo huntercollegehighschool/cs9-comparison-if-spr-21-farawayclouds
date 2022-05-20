@@ -19,9 +19,12 @@ number = int(input("Enter a number: "))
 
 smallest = number
 
-number = int(input("Enter another number: "))
+p = int(input("Enter a second number: "))
 
-if number < smallest:
-  smallest = number
-  
+next = int(input("Enter a third number: "))
+
+if p < smallest :
+  smallest = p
+elif next < smallest :
+  smallest = next
 print("The smallest number is ", smallest)
